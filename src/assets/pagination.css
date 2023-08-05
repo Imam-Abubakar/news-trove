@@ -28,4 +28,47 @@
   .pagination li a:hover {
     background-color: #f0f0f0;
   }
+
+  /* custom-pagination.css */
+
+/* Default styles for pagination items and links */
+.pagination-item {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.pagination-link {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  color: #333;
+  text-decoration: none;
+}
+
+/* Styles for pagination on small screens (e.g., mobile devices) */
+@media (max-width: 640px) {
+  .pagination {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+}
+
+/* Styles for pagination on medium to large screens */
+@media (min-width: 641px) {
+  .pagination {
+    justify-content: center;
+  }
+}
+
+/* Additional styles for the active page */
+.pagination-item.active .pagination-link {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.pagination-item a:hover {
+  background-color: #f0f0f0;
+}
+
   

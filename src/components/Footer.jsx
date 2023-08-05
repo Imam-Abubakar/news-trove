@@ -2,8 +2,8 @@ import React from 'react'
 
 const Footer = () => {
     return (
-        <div>
-            Developed by Team 5
+        <div className='flex text-center mx-auto text-2xl mb-8 font-medium'>
+            Developed by Group 5 (SE - CSC 420)
         </div>
     )
 }
